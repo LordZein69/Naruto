@@ -48,25 +48,6 @@ body {
 hr {border:0;border-top:1px solid #555;margin:0;height:1px;}
 /* TODO------------------------------------------------------------------------- */
 
-nav{
-    /* width: 3vmax;
-    height: 6vmin;
-    background-color: transparent;
-    box-sizing: border-box;
-    border: 7px solid #494949;
-    border-right: transparent;
-    border-radius: 10px 0 0 10px; */
-    text-align: center;
-    cursor: pointer;
-    line-height: 4vmin;
-    position: absolute;
-    top: 40px;
-    right: 0;
-}
-nav a{
-    font-size: 4vmax;
-    color: #494949;
-}
 #main {
     display: flex;
     justify-content: center;
@@ -160,77 +141,6 @@ footer a{
 }
 footer a:hover{
     filter: opacity(1);
-}
-
-/* TODO----------------------------------------------------------------------------------------------- */
-
-#about{
-    width: 100vw;
-    height: 100vh;
-    align-items: center;
-    padding: 0;
-    background-color: #494949;
-    display: flex;
-    overflow: hidden;
-}
-.navigation{
-    /* width: 3vmax;
-    height: 6vmin;
-    background-color: transparent;
-    box-sizing: border-box;
-    border: 7px solid #fbfad3;
-    border-left: transparent;
-    border-radius: 0px 10px 10px 0px; */
-    line-height: 6vmin;
-    position: absolute;
-    top: 40px;
-    text-align: center;
-    cursor: pointer;
-}
-.navigation a i{
-    font-size: 4vmax;
-    color: #fbfad3;
-}
-
-.container-dua{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 100px auto;
-    width: 80vmax;
-}
-.container-dua h1{
-    font-size: 3vmax;
-    font-family: 'Merriweather', serif;
-    text-transform: capitalize;
-    color: whitesmoke;
-}
-.container-dua h1 p a{
-    font-size: 3vmax;
-    font-family: 'Merriweather', serif;
-    text-transform: capitalize;
-    color: rgb(255, 255, 255);
-}
-.container-dua a{
-    text-decoration: none;
-}
-.container-dua span{
-    font-size: 7vmax;
-    color: whitesmoke;
-    font-family: 'Patrick Hand SC', cursive;
-}
-.container-dua a span{
-    font-size: 1.5vmax;
-    color: whitesmoke;
-    text-decoration: none;
-    font-family: 'Mulish', sans-serif;
-}
-.container-dua a i{
-    font-size: 2vmax;
-    color: whitesmoke;
-    margin-right: 9px;
 }
 
 /* TODO----------------------------------------------------------------------------------------------- */
