@@ -1,0 +1,266 @@
+/*
+font-family: 'Arvo', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+font-family: 'Patrick Hand SC', cursive;
+*/
+
+
+
+html{
+    /* scroll-behavior: smooth; */
+}
+:root {
+    --dasar: #fbfad3;
+    --font: #403f48;
+}
+body {
+    background-color: var(--bg);
+    display: flex;
+    flex-direction: row;
+    width: 200vw;
+    /* height: 100vh; */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(245, 218, 129);
+    border-radius: 30px;
+}
+
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(245, 208, 85); 
+}
+/* TODO------------------------------------------------------------------------- */
+
+nav{
+    /* width: 3vmax;
+    height: 6vmin;
+    background-color: transparent;
+    box-sizing: border-box;
+    border: 7px solid #494949;
+    border-right: transparent;
+    border-radius: 10px 0 0 10px; */
+    text-align: center;
+    cursor: pointer;
+    line-height: 4vmin;
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+nav a{
+    font-size: 4vmax;
+    color: #494949;
+}
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    margin: 0;
+    background-color: var(--dasar);
+}
+#title{
+    font-family: 'Merriweather', serif;
+    color: var(--font);
+    /* font-size: 2.0833333333333335vmax; */
+    margin: 21px 0 0 0;
+}
+.tagline{
+    font-family: 'Arvo', serif;
+    /* font-size:  1.171875vmax; */
+    color: var(--font);
+    margin: 0 0 35px 0;
+}
+.hr{
+    background-color: var(--font);
+    margin: 0 0 20px 0;
+}
+#img-div{
+    margin: 0 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#image{
+    background-size: cover;
+    width: 17.447916666666668vw;
+    max-width: 300px;
+    display: block;
+    border-bottom: 2px solid var(--font);
+    margin: 0 0 10px 0;
+}
+#img-caption{
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    color: var(--font);
+}
+.satu{
+    height: 1px;
+    width: 50vw;
+}
+.dua{
+    height: 1.7px;
+    width: 65vw;
+}
+
+/* TODO------------------------------------------------------------------------- */
+
+#tribute-info{
+    margin: 0 100px 0 100px;
+}
+#tribute-info strong{
+    text-transform: uppercase;
+    color: var(--font);
+}
+#tribute-info p{
+    line-height: 30px;
+    text-align: justify;
+    text-transform: capitalize;
+    color: var(--font);
+    font-family: 'Mulish', sans-serif;
+}
+
+/* TODO------------------------------------------------------------------------- */
+
+footer{
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #7e8b89;
+}
+footer p{
+    color: black;
+    font-size: 19px;
+    text-transform: capitalize;
+    font-family: 'Mulish', sans-serif;
+}
+footer a{
+    /* text-decoration: none; */
+    filter: opacity(.7);
+    color: black;
+}
+footer a:hover{
+    filter: opacity(1);
+}
+
+/* TODO----------------------------------------------------------------------------------------------- */
+
+#about{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #494949;
+    display: flex;
+    overflow: hidden;
+}
+.navigation{
+    /* width: 3vmax;
+    height: 6vmin;
+    background-color: transparent;
+    box-sizing: border-box;
+    border: 7px solid #fbfad3;
+    border-left: transparent;
+    border-radius: 0px 10px 10px 0px; */
+    line-height: 6vmin;
+    position: absolute;
+    top: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+.navigation a i{
+    font-size: 4vmax;
+    color: #fbfad3;
+}
+
+.container-dua{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 100px auto;
+    width: 80vmax;
+}
+.container-dua h1{
+    font-size: 3vmax;
+    font-family: 'Merriweather', serif;
+    text-transform: capitalize;
+    color: whitesmoke;
+}
+.container-dua h1 p a{
+    font-size: 3vmax;
+    font-family: 'Merriweather', serif;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+}
+.container-dua span{
+    font-size: 7vmax;
+    color: whitesmoke;
+    font-family: 'Patrick Hand SC', cursive;
+}
+.container-dua a span{
+    font-size: 1.5vmax;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+}
+.container-dua a i{
+    font-size: 2vmax;
+    color: whitesmoke;
+    margin-right: 9px;
+}
+
+/* TODO----------------------------------------------------------------------------------------------- */
+
+
+@media screen and (max-width: 1000px) {
+    
+    #tribute-info{
+        margin: 0 50px 0 50px;
+    }
+
+}
+
+@media screen and (max-width: 670px) {
+    
+    #title{
+        font-size: 25px;
+    }
+    
+    .tagline{
+        font-size: 13.5px;
+    }
+
+    #img-caption{
+        font-size: 13.5px;
+    }
+
+    #tribute-info p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    footer p{
+        font-size: 14px;
+    }
+
+}
