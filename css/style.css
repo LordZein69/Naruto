@@ -19,7 +19,6 @@ body {
     background-color: var(--bg);
     display: flex;
     flex-direction: row;
-    width: 200vw;
     /* height: 100vh; */
     margin: 0;
     padding: 0;
