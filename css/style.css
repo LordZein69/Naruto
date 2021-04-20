@@ -45,6 +45,7 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(245, 208, 85); 
 }
+hr {border:0;border-top:1px solid #555;margin:0;height:1px;}
 /* TODO------------------------------------------------------------------------- */
 
 nav{
@@ -123,7 +124,7 @@ nav a{
 /* TODO------------------------------------------------------------------------- */
 
 #tribute-info{
-    margin: 0 100px 0 100px;
+    margin: 0 50px 0 50px;
 }
 #tribute-info strong{
     text-transform: uppercase;
@@ -238,7 +239,7 @@ footer a:hover{
 @media screen and (max-width: 1000px) {
     
     #tribute-info{
-        margin: 0 50px 0 50px;
+        margin: 0 20px 0 20px;
     }
 
 }
