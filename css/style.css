@@ -164,9 +164,9 @@ footer a:hover{
 /* TODO----------------------------------------------------------------------------------------------- */
 
 #about{
-    width: 100vmax;
-    height: 100vmin;
-    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
     padding: 0;
     background-color: #494949;
     display: flex;
@@ -211,6 +211,9 @@ footer a:hover{
     font-family: 'Merriweather', serif;
     text-transform: capitalize;
     color: rgb(255, 255, 255);
+}
+.container-dua a{
+    text-decoration: none;
 }
 .container-dua span{
     font-size: 7vmax;
